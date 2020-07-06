@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subs2srs optimize</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>subs2srs optimizer</h1>
+    <main>
+      <section>
+        <h2>unite sentences</h2>
+        <div class="drop-area" id="input" ondragover="event.preventDefault()">
+          <p>Drop here your .tsv file</p>
+        </div>
+        <p id="progress">Waiting...</p>
+        <div id="output"></div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+    <script src="unite.js"></script>
+  </body>
+</html>

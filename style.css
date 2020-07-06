@@ -1,0 +1,18 @@
+.drop-area {
+  border: 2px dashed #2393;
+  padding: 30px 10px;
+
+}
+
+button {
+  font-size: 2rem;
+}
+
+section {
+  border-bottom: 1px solid #222;
+  padding-bottom: 5px;
+}
+
+a {
+  display: block;
+}
